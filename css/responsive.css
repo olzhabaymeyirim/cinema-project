@@ -1,0 +1,105 @@
+@media (max-width: 800px) {
+    .header {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .menu a,
+    .menu select {
+        height: 35px;
+        padding: 0 12px;
+        font-size: 13px;
+    }
+
+    .main-part {
+        height: 70vh;
+    }
+
+    .main-text {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .main-text h1 {
+        font-size: 42px;
+    }
+
+    .about {
+        padding: 60px 25px;
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .about h2 {
+        font-size: 38px;
+    }
+
+    .about-visual img {
+        height: 350px;
+    }
+
+    .otzyv {
+        padding: 60px 20px;
+    }
+
+    .otzyv-title h2 {
+        font-size: 38px;
+    }
+
+    .otzyv-list {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .write-otzyv {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 25px;
+        margin-top: 50px;
+    }
+
+    .write-otzyv h3 {
+        font-size: 28px;
+    }
+
+    .student-offer {
+        padding: 60px 25px;
+    }
+
+    .student-offer h2 {
+        font-size: 40px;
+    }
+
+    .offer-content {
+        padding: 25px;
+    }
+
+    .offer-content strong {
+        font-size: 40px;
+    }
+
+    .final-cta {
+        padding: 70px 20px;
+    }
+
+    .final-cta h2 {
+        font-size: 42px;
+    }
+
+
+    .movies-footer {
+        padding: 30px 20px;
+    }
+
+}
