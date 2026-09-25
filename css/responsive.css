@@ -3,6 +3,67 @@
         padding: 15px 20px;
         flex-direction: column;
         gap: 15px;
+
+@media (max-width: 900px) {
+
+    /* Header */
+
+    .site-header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 18px 5%;
+    }
+
+    .menu {
+        margin-left: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    /* Hero */
+
+    .intro {
+        min-height: 350px;
+    }
+
+    .intro h1 {
+        font-size: 48px;
+    }
+
+
+    /* Movies Grid */
+
+    .griid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+
+    /* Movie images */
+
+    .movie-image-box {
+        height: 320px;
+    }
+
+
+    /* Bottom banner */
+
+    .movie-banner {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 600px) {
+
+    /* Header */
+
+    .site-header {
+        padding: 18px 4%;
     }
 
     .logo {
@@ -10,18 +71,27 @@
     }
 
     .menu {
+<<<<<<< HEAD
         flex-wrap: wrap;
         justify-content: center;
+=======
+        width: 100%;
+>>>>>>> a00d94959b3ff19bb13fea1087b49f661b249242
         gap: 8px;
     }
 
     .menu a,
     .menu select {
+<<<<<<< HEAD
         height: 35px;
+=======
+        height: 36px;
+>>>>>>> a00d94959b3ff19bb13fea1087b49f661b249242
         padding: 0 12px;
         font-size: 13px;
     }
 
+<<<<<<< HEAD
     .main-part {
         height: 70vh;
     }
@@ -102,4 +172,78 @@
         padding: 30px 20px;
     }
 
+=======
+
+    /* Hero */
+
+    .movies-intro {
+        min-height: 320px;
+    }
+
+    .movies-intro-content {
+        padding: 25px;
+    }
+
+    .movies-hero h1 {
+        font-size: 38px;
+    }
+
+    .movies-hero p:last-child {
+        font-size: 16px;
+    }
+
+
+    /* Movies section */
+
+    .movies-list {
+        padding: 55px 20px;
+    }
+
+    .movies-title {
+        margin-bottom: 35px;
+    }
+
+    .movies-title h2 {
+        font-size: 32px;
+    }
+
+
+    /* Movies Grid */
+
+    .griid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+
+    /* Movie images */
+
+    .movie-image-box {
+        height: 400px;
+    }
+
+
+    /* Movie buttons */
+
+    .trailer-button,
+    .book-button {
+        display: block;
+        text-align: center;
+        margin-right: 0;
+        width: 100%;
+    }
+
+
+    /* Bottom banner */
+
+    .movie-banner {
+        margin: 10px 20px 50px;
+        padding: 40px 20px;
+        min-height: 240px;
+    }
+
+    .movie-banner h2 {
+        font-size: 28px;
+    }
+>>>>>>> a00d94959b3ff19bb13fea1087b49f661b249242
 }
